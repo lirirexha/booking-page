@@ -1,0 +1,15 @@
+{
+  "name": "booking-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lirirexha/booking-page.git",
+  "author": "Liri Rexha <lirie.rexhaa@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["apps/*"],
+    "scripts": {
+    "dev": "yarn workspaces foreach -pt run dev",
+    "dev:web": "yarn workspace web dev",
+    "dev:api": "yarn workspace api start:dev"
+  }
+}
