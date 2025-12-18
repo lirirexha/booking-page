@@ -1,0 +1,51 @@
+.main {
+    padding: 20px;
+    max-width: 60vw;
+    margin: auto;
+
+    .heading {
+        font-size: 28px; 
+        font-weight: 700;
+    }
+
+    .dateAndTime {
+        margin: 10px 0;
+    }
+
+    .bookAnother {
+        margin: 15px 0;
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid #e5e5e5;
+        background-color: #fff;
+    }
+
+    .selectedTime {
+        opacity: 0.8;
+        margin: 5px 0;
+        font-weight: 700;
+    }
+
+    .confirmationForm {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        input {
+            padding: 12px; 
+            border-radius: 12px; 
+            border: 1px solid #ddd;
+        }
+
+        button {
+            padding: 12px;
+            border-radius: 12px;
+            border: 1px solid #e5e5e5;
+            background: #eee;
+            cursor: pointer;
+            color: #4d4d4d;
+            font-weight: 700;
+        }
+    }
+}

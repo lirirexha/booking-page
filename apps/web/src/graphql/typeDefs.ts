@@ -30,9 +30,12 @@ export const typeDefs = /* GraphQL */ `
   type Query {
     services: [Service!]!
     availableSlots(serviceId: ID!, date: String!): [String!]!
+    bookings: [Booking!]
   }
 
   type Mutation {
     createBooking(input: CreateBookingInput!): Booking!
+    cancelBooking(id: ID!): Booking!
   }
+
 `
